@@ -53,25 +53,24 @@ Define any output language — Hindi, Marathi, Spanish, etc.
 
 ## 📑 Project Structure
 
-`<pre class="overflow-visible!" data-start="1742" data-end="2286"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary">``<div class="sticky top-9"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2">``<div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div>``</div></div>``<div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre!">``<span><span>`Crop_Detection/
+Crop_Detection/
 │── src/
-│   ├── app.py                  `<span>`# FastAPI application (endpoints)`<span>`
-│   ├── api_model_loader.py     `<span>`# Model loading + prediction + RAG `<span>`
-│   └── frontend/               `<span>`# Optional UI `<span>`
+│   ├── app.py                  # FastAPI application (endpoints)
+│   ├── api_model_loader.py     # Model loading + prediction + RAG
+│   └── frontend/               # Optional UI
 │
 │── knowledge_base/
-│   ├── documents.json          `<span>`# Dummy Treatment database `<span>`
-│   └── vector_store.json       `<span>`# Generated embeddings `<span>`
+│   ├── documents.json          # Treatment database
+│   └── vector_store.json       # Generated embeddings
 │
 │── models/
-│   └── best_model.pt           `<span>`# EfficientNet-B0 trained model `<span>`
+│   └── best_model.pt           # EfficientNet-B0 trained model
 │
 │── dataset_split/
-│   └── `<span>`test `<span>`/                   `<span>`# Small test dataset for inference test `<span>`
+│   └── test/                   # Small test dataset for debugging
 │
 │── requirements.txt
 │── README.md
-`</code></div>``</div></pre>`
 
 ---
 
