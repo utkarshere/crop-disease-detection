@@ -1,0 +1,283 @@
+{
+  "Apple_Scab_Leaf": [
+    {
+      "title": "Apple Scab: Symptoms and Identification",
+      "content": "Apple scab is caused by the fungus Venturia inaequalis. It appears as olive-green to brown circular lesions on leaves, usually starting on the lower leaf surface. Early season infections cause velvety, dark spots that may merge. Severely infected leaves become distorted and drop prematurely. The disease thrives in cool, moist conditions with temperatures between 55-75°F and prolonged leaf wetness."
+    },
+    {
+      "title": "Chemical Control of Apple Scab",
+      "content": "Begin fungicide applications at green tip stage before infection occurs. Effective fungicides include captan, mancozeb, and myclobutanil. Apply every 7-10 days during wet spring weather. Systemic fungicides like Rally or Inspire provide 10-14 days of protection. Rotate fungicide groups to prevent resistance development. Scout orchards regularly and increase spray frequency during prolonged wet periods."
+    },
+    {
+      "title": "Cultural Management and Prevention",
+      "content": "Remove fallen leaves in autumn to reduce overwintering spores. Apply 5% urea solution to leaves before they fall to accelerate decomposition. Plant resistant varieties like Liberty, Freedom, or Enterprise. Maintain proper tree spacing of 15-20 feet for air circulation. Prune trees annually to create open canopy structure that promotes rapid drying of foliage after rain or dew."
+    },
+    {
+      "title": "Organic Treatment Options",
+      "content": "Sulfur-based fungicides are effective organic options. Apply at 3-6 pounds per 100 gallons starting at bud break. Lime sulfur provides good early season protection but may cause leaf damage in hot weather. Copper fungicides offer moderate control but can cause fruit russeting. Bacillus subtilis products provide suppressive activity when applied preventively. Combine organic treatments with sanitation for best results."
+    }
+  ],
+  
+  "Tomato_Septoria_leaf_spot": [
+    {
+      "title": "Septoria Leaf Spot Identification",
+      "content": "Septoria leaf spot is caused by the fungus Septoria lycopersici. Symptoms begin on lower older leaves as small circular spots with gray centers and dark brown margins. Tiny black fruiting bodies appear in spot centers. Infected leaves turn yellow and drop, leading to defoliation from bottom up. Disease spreads rapidly during warm humid weather with temperatures of 68-77°F and frequent rain or overhead irrigation."
+    },
+    {
+      "title": "Fungicide Treatment Program",
+      "content": "Start protective fungicide sprays when first symptoms appear or during favorable disease conditions. Chlorothalonil and mancozeb provide excellent control. Apply at 7-10 day intervals, shortening to 5-7 days during wet periods. Azoxystrobin and other strobilurin fungicides offer systemic protection. Alternate fungicide classes to manage resistance. Continue applications until 3-4 weeks before final harvest."
+    },
+    {
+      "title": "Cultural Control Practices",
+      "content": "Remove and destroy infected plant debris at season end. Rotate tomatoes with non-host crops for 2-3 years. Space plants 24-36 inches apart for air circulation. Use drip irrigation instead of overhead watering. Mulch around plants to prevent soil splash. Remove lower leaves touching soil. Stake or cage plants to keep foliage off ground. Avoid working with plants when wet to prevent disease spread."
+    },
+    {
+      "title": "Resistant Varieties and Prevention",
+      "content": "Select partially resistant varieties like Mountain Fresh Plus or Plum Regal. Use certified disease-free transplants. Apply preventive fungicides before symptoms appear during conducive weather. Remove volunteer tomato plants that can harbor the pathogen. Practice good garden sanitation by removing infected leaves promptly. Consider using disease-free seed or treating seed with hot water at 122°F for 25 minutes."
+    }
+  ],
+
+  "Corn_rust_leaf": [
+    {
+      "title": "Corn Rust Disease Overview",
+      "content": "Common rust is caused by the fungus Puccinia sorghi. Symptoms appear as small elongated pustules on both leaf surfaces, releasing reddish-brown spores when rubbed. Pustules may merge causing large necrotic areas. Disease is most severe during moderate temperatures (60-77°F) with high humidity and heavy dew. Late season infections have minimal yield impact, while early infections can reduce yields by 10-40%."
+    },
+    {
+      "title": "Fungicide Application for Corn Rust",
+      "content": "Foliar fungicides are economically justified when disease appears before tasseling and conditions favor continued development. Strobilurin fungicides like azoxystrobin or pyraclostrobin are effective. Triazole fungicides including propiconazole provide good control. Apply at early disease stages before 5% leaf area affected. Single applications at VT-R1 growth stage protect critical grain fill period. Aerial application ensures thorough canopy coverage."
+    },
+    {
+      "title": "Integrated Management Strategies",
+      "content": "Plant resistant or moderately resistant hybrids as primary defense. Time planting to avoid peak spore production periods. Monitor fields regularly starting at V8 growth stage. Consider fungicide application if rust appears before tasseling in susceptible hybrids. Ensure adequate plant nutrition, especially nitrogen and potassium. Maintain proper plant populations and row spacing for air movement. Rotate with non-host crops to reduce inoculum buildup."
+    }
+  ],
+
+  "Tomato_leaf_late_blight": [
+    {
+      "title": "Late Blight Recognition and Impact",
+      "content": "Late blight, caused by Phytophthora infestans, is one of the most destructive tomato diseases. Water-soaked lesions appear on leaves, stems, and fruit. White fungal growth develops on leaf undersides in humid conditions. Infected tissue turns dark brown and dies. Disease spreads extremely rapidly in cool (60-70°F) wet weather, capable of destroying entire fields in 7-10 days. Spores spread via wind, rain splash, and infected plant material."
+    },
+    {
+      "title": "Intensive Fungicide Program",
+      "content": "Requires aggressive preventive fungicide program. Begin applications before disease appears when conditions favor infection. Use combination products containing chlorothalonil plus mancozeb for broad spectrum protection. Alternate with systemic fungicides like fluopicolide, cyazofamid, or mandipropamid. Apply at 5-7 day intervals during wet cool periods. Shorten interval to 3-5 days during active outbreaks. Ensure thorough coverage of all plant surfaces. Continue through harvest if conditions remain favorable."
+    },
+    {
+      "title": "Critical Prevention Measures",
+      "content": "Purchase only certified disease-free transplants. Eliminate volunteer potatoes and tomatoes that can harbor pathogen. Separate new plantings from old fields by at least 500 feet. Space plants widely for rapid foliage drying. Use drip irrigation; avoid overhead watering. Apply mulch to minimize soil splash. Scout fields 2-3 times weekly during conducive weather. Remove infected plants immediately and bury or burn. Report outbreaks to local extension for disease tracking."
+    },
+    {
+      "title": "Resistant Varieties and Host Defense",
+      "content": "Plant varieties with late blight resistance genes where available. Mountain Merit, Iron Lady, and Plum Regal show improved resistance. No variety offers complete immunity; combine with fungicides. Resistant varieties allow longer spray intervals and provide insurance during spray gaps. Maintain plant vigor through proper fertility and irrigation. Avoid excessive nitrogen which increases susceptibility. Consider using induced resistance products like acibenzolar-S-methyl as part of integrated program."
+    }
+  ],
+
+  "Potato_leaf_early_blight": [
+    {
+      "title": "Early Blight Disease Cycle",
+      "content": "Early blight is caused by Alternaria solani fungus. Symptoms appear first on older lower leaves as small dark spots with concentric rings creating target pattern. Lesions may merge causing entire leaves to die. Disease progresses up plant during favorable conditions. Thrives in warm temperatures (75-85°F) with alternating wet and dry periods. Overwintered spores from previous crop debris serve as primary infection source."
+    },
+    {
+      "title": "Fungicide Control Strategy",
+      "content": "Begin fungicide applications when plants are 6 inches tall or when disease first appears. Protectant fungicides like chlorothalonil and mancozeb are cost-effective. Strobilurin and SDHI fungicides like boscalid provide excellent control. Apply every 7-14 days depending on disease pressure. Use shorter intervals during wet weather. Tank-mix protectant and systemic fungicides for improved efficacy and resistance management. Continue applications until vines die."
+    },
+    {
+      "title": "Cultural Control Practices",
+      "content": "Use certified disease-free seed potatoes. Rotate potatoes with non-solanaceous crops for 3-4 years. Deep plow or bury crop debris after harvest. Hill plants properly to protect developing tubers. Maintain adequate nitrogen and potassium fertility. Avoid moisture stress through consistent irrigation. Use drip or furrow irrigation rather than sprinklers. Destroy volunteer potatoes and nightshade weeds. Allow adequate spacing between rows for air movement."
+    }
+  ],
+
+  "grape_leaf_black_rot": [
+    {
+      "title": "Black Rot Disease Recognition",
+      "content": "Black rot, caused by Guignardia bidwellii, affects all green grape tissues. Leaf spots appear as small reddish-brown lesions expanding to circular spots with tan centers and dark margins. Black fruiting bodies dot the lesions. Infected berries show small tan spots that quickly enlarge, turning entire berry brown then black and shriveled into hard mummies. Disease is most severe during warm (60-90°F) rainy weather with 6-8 hour leaf wetness."
+    },
+    {
+      "title": "Fungicide Application Program",
+      "content": "Critical spray period extends from immediate prebloom through 4 weeks after bloom. Apply myclobutanil, mancozeb, or captan at 10-14 day intervals. Shorter intervals needed during frequent rains. Ensure thorough coverage of clusters. Strobilurin and SDHI fungicides like pyraclostrobin and boscalid provide excellent control. Alternate fungicide classes to prevent resistance. Cease applications when berries begin softening as infection risk declines."
+    },
+    {
+      "title": "Sanitation and Cultural Control",
+      "content": "Remove and destroy mummified berries which harbor overwintering fungus. Prune out infected canes during dormant season. Burn or bury all infected material; do not compost. Maintain open canopy through proper pruning and training. Ensure good air circulation and sun exposure. Apply dormant lime sulfur spray to reduce overwintering inoculum. Remove wild grape plants near vineyard. Monitor vineyards closely during early season when fruit is most susceptible."
+    }
+  ],
+
+  "Bell_pepper_leaf_spot": [
+    {
+      "title": "Bacterial Leaf Spot in Peppers",
+      "content": "Bacterial leaf spot is caused by Xanthomonas species. Water-soaked spots appear on leaves, often with yellow halos. Spots turn brown and may drop out leaving tattered appearance. Fruit lesions are raised, corky, and light green to brown. Disease spreads rapidly during warm (75-86°F) humid conditions through rain splash, irrigation, and contaminated tools. Bacteria survive on seed and crop debris."
+    },
+    {
+      "title": "Copper-Based Control Program",
+      "content": "Apply copper-based bactericides preventively before disease appears. Use copper hydroxide or copper sulfate products at 7-10 day intervals. Add mancozeb for enhanced efficacy. Begin applications at transplanting and continue through season. Increase spray frequency to 5-7 days during wet weather. Avoid copper during bloom if bees are present. Use spreader-stickers to improve coverage and rain-fastness. Bacterial diseases are difficult to control once established; prevention is critical."
+    },
+    {
+      "title": "Management and Prevention",
+      "content": "Plant only certified disease-free seed and transplants. Use hot water seed treatment at 122°F for 25-30 minutes. Rotate peppers with non-solanaceous crops for 2-3 years. Remove and destroy infected plants and debris. Avoid working with plants when wet. Use drip irrigation; avoid overhead watering. Space plants adequately for quick drying. Control weeds that may harbor bacteria. Disinfect tools and equipment between fields. Select resistant varieties when available."
+    }
+  ],
+
+  "Corn_leaf_blight": [
+    {
+      "title": "Northern Corn Leaf Blight Overview",
+      "content": "Northern corn leaf blight is caused by Exserohilum turcicum fungus. Long cigar-shaped gray-green to tan lesions develop on leaves. Lesions may expand across entire leaf width. Heavy infection causes premature leaf death reducing photosynthesis. Disease is most severe with moderate temperatures (64-81°F), high humidity, and extended dew periods. Can reduce yields 15-30% when infection occurs before tasseling."
+    },
+    {
+      "title": "Fungicide Treatment Timing",
+      "content": "Foliar fungicides are warranted when disease develops on lower leaves before tasseling in susceptible hybrids. Apply at V8-VT growth stage before extensive infection. Strobilurin fungicides like azoxystrobin or pyraclostrobin are effective. Triazole fungicides including propiconozole provide control. Single application at VT-R1 protects during critical grain fill. Use aerial application for thorough coverage in tall corn. Economic benefit depends on disease pressure and grain prices."
+    },
+    {
+      "title": "Hybrid Selection and Cultural Practices",
+      "content": "Plant resistant or moderately resistant hybrids as primary management tool. Rotate corn with non-host crops to reduce inoculum buildup. Tillage buries infected residue accelerating decomposition. Manage volunteer corn that harbors pathogen between seasons. Maintain balanced fertility; avoid excessive nitrogen. Ensure adequate plant spacing for air movement. Monitor fields starting at V8-V10 growth stages. Consider hybrid maturity and planting date to avoid peak disease periods."
+    }
+  ],
+
+  "Squash_Powdery_mildew_leaf": [
+    {
+      "title": "Powdery Mildew Disease Characteristics",
+      "content": "Powdery mildew on squash is caused primarily by Podosphaera xanthii. White powdery fungal growth appears on upper and lower leaf surfaces. Severely infected leaves turn yellow, brown, and die. Disease reduces photosynthesis and fruit quality. Unlike most fungal diseases, powdery mildew develops during dry conditions with low humidity. Spores spread by wind. Optimal temperature range is 68-81°F."
+    },
+    {
+      "title": "Fungicide Control Program",
+      "content": "Begin preventive fungicide applications when plants begin to run or at first disease appearance. Sulfur products are economical and effective organic options. Apply every 7-10 days. Avoid sulfur when temperatures exceed 90°F. Strobilurin fungicides like azoxystrobin provide excellent control but rotate to prevent resistance. FRAC 3 fungicides like myclobutanil are effective. Potassium bicarbonate offers organic post-infection control. Ensure thorough coverage of leaf surfaces."
+    },
+    {
+      "title": "Cultural Management Strategies",
+      "content": "Select resistant or tolerant squash varieties. Ensure adequate plant spacing for air movement. Avoid excessive nitrogen fertilization which produces succulent susceptible tissue. Remove and destroy severely infected leaves. Practice crop rotation. Clean up and destroy crop debris at season end. Plant in full sun locations. Monitor plants weekly starting at flowering. Maintain consistent soil moisture through drip irrigation. Avoid drought stress which increases susceptibility."
+    }
+  ],
+
+  "Tomato_Early_blight_leaf": [
+    {
+      "title": "Early Blight in Tomatoes",
+      "content": "Early blight is caused by Alternaria solani fungus. Symptoms first appear on older lower leaves as small brown spots with concentric rings creating bull's-eye pattern. Lesions enlarge and coalesce causing leaf yellowing and defoliation. Stem lesions appear as dark sunken areas. Fruit spots occur near stem end. Disease is favored by warm temperatures (75-85°F), high humidity, and leaf wetness. Most damaging when plants are stressed."
+    },
+    {
+      "title": "Effective Fungicide Management",
+      "content": "Apply preventive fungicides when plants are 12 inches tall or when first symptoms appear. Chlorothalonil provides excellent protectant activity. Apply at 7-10 day intervals. Strobilurin and SDHI fungicides like azoxystrobin and boscalid offer systemic activity. Alternate fungicide groups to manage resistance. Use shorter spray intervals during extended wet periods. Tank-mix protectant and systemic products for improved efficacy. Continue applications through harvest."
+    },
+    {
+      "title": "Cultural Control and Prevention",
+      "content": "Use disease-free certified transplants. Rotate tomatoes with non-solanaceous crops for 3-4 years. Space plants 24-36 inches apart for air movement. Use drip irrigation to keep foliage dry. Mulch to prevent soil splash. Remove lower leaves touching soil. Stake or cage plants. Maintain balanced fertility; avoid excessive nitrogen. Remove infected leaves and destroy. Clean up all plant debris at season end. Control volunteer plants and weeds in nightshade family."
+    }
+  ],
+
+  "Potato_leaf_late_blight": [
+    {
+      "title": "Late Blight in Potato Crops",
+      "content": "Late blight caused by Phytophthora infestans is the most destructive potato disease. Water-soaked lesions appear on leaves and stems, turning dark brown to black. White fungal growth develops on lesions under humid conditions. Disease spreads explosively during cool (45-75°F) wet weather. Can destroy entire fields in one week. Tuber infection occurs when spores wash into soil, causing brown rot internally."
+    },
+    {
+      "title": "Intensive Fungicide Program Required",
+      "content": "Requires aggressive preventive program beginning at plant emergence. Apply protectant fungicides like chlorothalonil or mancozeb at 5-7 day intervals. Alternate or tank-mix with systemic fungicides including fluopicolide, cyazofamid, cymoxanil, or dimethomorph. During active outbreaks, shorten intervals to 3-5 days. Ensure excellent coverage including lower leaf surfaces. Use sufficient water volume. Continue through vine kill. Apply copper fungicides to vines before killing to prevent tuber infection."
+    },
+    {
+      "title": "Critical Management Practices",
+      "content": "Plant certified disease-free seed potatoes. Use resistant varieties with R genes where available. Scout fields 2-3 times weekly during favorable conditions. Bury or burn infected plant material immediately. Hill plants properly to protect tubers. Eliminate volunteer potatoes and nightshade weeds. Separate new plantings from infected areas by 500+ feet. Kill vines 2-3 weeks before harvest. Allow skin set before digging. Harvest during dry weather. Cure tubers properly before storage."
+    }
+  ],
+
+  "Tomato_leaf_bacterial_spot": [
+    {
+      "title": "Bacterial Spot Disease Identification",
+      "content": "Bacterial spot is caused by Xanthomonas species. Small water-soaked spots appear on leaves, often with yellow halos. Spots turn brown and may fall out leaving shot-hole appearance. Fruit lesions are raised, dark, and scabby. Disease spreads rapidly during warm (75-86°F) rainy weather via splash, wind-driven rain, and contaminated equipment. Bacteria survive on seed, volunteers, and crop debris."
+    },
+    {
+      "title": "Copper and Antibiotic Programs",
+      "content": "Apply copper-based bactericides preventively starting at transplanting. Use copper hydroxide or copper sulfate at 5-7 day intervals. During wet conditions shorten to 3-5 days. Add mancozeb to enhance efficacy. For transplants, streptomycin antibiotics may be used before bloom. Acibenzolar-S-methyl activates plant defense responses. No treatment is fully effective once disease is established; prevention is essential. Rotate bactericide groups to delay resistance."
+    },
+    {
+      "title": "Preventive Cultural Practices",
+      "content": "Use certified pathogen-free seed and transplants. Treat seed with hot water at 122°F for 25 minutes or use biological seed treatments. Rotate away from solanaceous crops for 3+ years. Remove all crop debris and volunteers. Use drip irrigation exclusively. Avoid working with plants when wet. Disinfect tools and equipment between uses. Provide adequate plant spacing. Control weeds in nightshade family. Stake plants to keep foliage off ground. Select resistant varieties when available, though resistance levels vary."
+    }
+  ],
+
+  "Tomato_leaf_mosaic_virus": [
+    {
+      "title": "Tomato Mosaic Virus Symptoms",
+      "content": "Tomato mosaic virus causes mottled light and dark green patterns on leaves. Leaves may show distortion, blistering, or fern-like appearance. Plants are often stunted with reduced fruit set. Fruit may show internal browning or uneven ripening. Virus spreads mechanically through sap via tools, hands, and contaminated plant debris. Survives in seed, soil, and plant residues. High temperatures (75-90°F) worsen symptoms."
+    },
+    {
+      "title": "No Chemical Control Available",
+      "content": "No fungicides or bactericides control viral diseases. Management relies entirely on prevention and cultural practices. Remove and destroy infected plants immediately to prevent spread. Disinfect tools and hands with 10% bleach solution or milk between plants. Control aphids and other potential insect vectors though mechanical transmission is primary. Avoid tobacco use around plants as tobacco can harbor related viruses. Focus on sanitation and resistant varieties."
+    },
+    {
+      "title": "Prevention and Resistance Strategies",
+      "content": "Plant resistant tomato varieties with Tm-2 gene when available. Use certified virus-free seed and transplants. Treat seed with trisodium phosphate. Wash hands with soap before working with plants. Disinfect stakes, cages, and equipment with bleach solution. Remove solanaceous weeds which may harbor virus. Don't compost infected plants. Rotate tools between healthy and suspicious plants. Purchase transplants only from reputable sources. Consider growing in clean soilless media in greenhouses to avoid soil-borne virus."
+    }
+  ],
+
+  "Apple_rust_leaf": [
+    {
+      "title": "Cedar Apple Rust Disease Cycle",
+      "content": "Cedar apple rust is caused by Gymnosporangium juniperi-virginianae fungus requiring both apple and Eastern red cedar or juniper hosts. Orange-yellow spots appear on apple leaves in spring. Tube-like projections grow from leaf undersides. Heavily infected leaves drop. The fungus overwinters on cedar producing brown galls that release spores in spring during wet weather. Spores infect apple, then return to cedar. Disease severity depends on proximity to cedar trees and spring rainfall."
+    },
+    {
+      "title": "Fungicide Application Timing",
+      "content": "Protectant fungicides must be applied before spore release from cedar galls. Apply myclobutanil, mancozeb, or sulfur beginning at pink bud stage. Continue at 7-10 day intervals through 2 weeks after petal fall. Most critical sprays are pink, bloom, and first cover. Strobilurin fungicides provide good control. Rain during bloom increases infection risk requiring tighter spray intervals. Scout cedars for wet orange galls indicating spore release periods."
+    },
+    {
+      "title": "Landscape Management Approach",
+      "content": "Remove Eastern red cedar or juniper trees within 2-4 miles of apple plantings. This is most effective control but often impractical. Prune out galls from cedar trees in late winter before spring. Plant rust-resistant apple varieties like Freedom, Liberty, or Enterprise. Increase tree spacing to improve air circulation. Monitor cedars during wet spring weather for active spore release. Consider replacing cedar landscaping with non-host evergreens around orchards."
+    }
+  ],
+
+  "Tomato_leaf_yellow_virus": [
+    {
+      "title": "Tomato Yellow Leaf Curl Virus",
+      "content": "Tomato yellow leaf curl virus (TYLCV) causes severe upward leaf curling and yellowing. Plants become stunted with bushy appearance. Flower drop is common with little to no fruit production. Virus is transmitted exclusively by whiteflies (Bemisia tabaci). Not seed or mechanically transmitted. Infected plants remain infected for life. Virus establishes in warm regions where whiteflies overwinter. Most damaging when infection occurs in young plants."
+    },
+    {
+      "title": "Whitefly Control Strategy",
+      "content": "Control focuses on whitefly vector management. Begin insecticide program at transplanting. Systemic neonicotinoids like imidacloprid applied as soil drench or foliar spray. Rotate with pymetrozine, spiromesifen, or buprofezin to prevent resistance. Apply insecticides at 5-7 day intervals during high whitefly pressure. Use insecticidal soaps or oils for organic production. Yellow sticky cards for monitoring. Spray threshold is very low as single infected whitefly can transmit virus."
+    },
+    {
+      "title": "Cultural Prevention Methods",
+      "content": "Plant TYLCV-resistant varieties which tolerate infection and still produce fruit. Use reflective silver mulches to repel whiteflies. Install fine mesh screening in greenhouses or high tunnels. Eliminate volunteer tomatoes and solanaceous weeds harboring virus and whiteflies. Remove infected plants immediately. Avoid planting near fall tomatoes or other susceptible crops. Time plantings to avoid peak whitefly populations. Start with clean transplants from screened greenhouses. Consider using UV-blocking greenhouse films that reduce whitefly activity."
+    }
+  ],
+
+  "Tomato_mold_leaf": [
+    {
+      "title": "Tomato Leaf Mold Disease",
+      "content": "Leaf mold is caused by Passalora fulva fungus. Pale green or yellowish spots appear on upper leaf surfaces. Olive-green to grayish-purple velvety mold develops on lower surfaces. Severely infected leaves turn brown, curl, and drop. Disease is primarily a greenhouse problem but occurs in humid field conditions. Thrives at 70-80°F with high humidity above 85% and poor air circulation. Spreads by airborne spores and water splash."
+    },
+    {
+      "title": "Fungicide Control in Greenhouses",
+      "content": "Apply chlorothalonil, mancozeb, or copper fungicides preventively at 7-10 day intervals. Strobilurin fungicides like azoxystrobin provide good control. Begin when first symptoms appear or conditions favor disease. Ensure thorough coverage of lower leaf surfaces. In greenhouses, apply in morning so foliage dries quickly. Avoid applying late in day when humidity rises. Alternate fungicide groups to prevent resistance. Reduce or eliminate fungicides by managing greenhouse environment."
+    },
+    {
+      "title": "Environmental Management",
+      "content": "Manage humidity through ventilation and heating in greenhouses. Keep relative humidity below 85%. Provide adequate spacing between plants. Remove lower leaves to improve airflow. Avoid overhead irrigation; use drip systems. Water early in day so foliage dries. Stake and prune plants for open canopy. Increase air circulation with fans. Monitor greenhouse humidity and temperature continuously. Plant resistant varieties when available. Remove infected leaves and destroy. Practice greenhouse sanitation between crops."
+    }
+  ],
+
+  "Tomato_two_spotted_spider_mites_leaf": [
+    {
+      "title": "Spider Mite Damage Recognition",
+      "content": "Two-spotted spider mites (Tetranychus urticae) cause stippling of leaves from feeding. Leaves appear bronze or silver from thousands of tiny feeding spots. Fine webbing may be visible on undersides and growing tips. Heavy infestations cause leaf yellowing, browning, and defoliation. Mites thrive in hot (70-90°F) dry conditions. Populations explode rapidly with generation time of 7-14 days. Water stress increases susceptibility."
+    },
+    {
+      "title": "Miticide Application Program",
+      "content": "Apply miticides when mites first detected as populations increase exponentially. Abamectin provides excellent control of all life stages. Spiromesifen and etoxazole target eggs and immatures. Bifenazate controls all stages. Rotate miticide modes of action to prevent resistance development. Ensure thorough coverage of lower leaf surfaces where mites feed. Repeat applications at 7-10 day intervals if populations persist. Many miticides have limited effect on eggs requiring follow-up sprays."
+    },
+    {
+      "title": "Integrated Mite Management",
+      "content": "Monitor plants weekly with hand lens examining lower leaf surfaces. Release predatory mites like Phytoseiulus persimilis in greenhouses for biological control. Overhead irrigation or water sprays physically remove mites and reduce populations. Avoid dusty conditions which favor mites. Maintain plant vigor through adequate irrigation. Remove heavily infested leaves. Destroy crop debris after harvest. Control weeds that serve as alternate hosts. Avoid broad-spectrum insecticides that kill beneficial predatory mites. Use insecticidal soaps or horticultural oils for organic production."
+    }
+  ],
+
+  "Corn_Gray_leaf_spot": [
+    {
+      "title": "Gray Leaf Spot Disease Profile",
+      "content": "Gray leaf spot is caused by Cercospora zeae-maydis fungus. Narrow rectangular lesions develop parallel to leaf veins, initially tan then gray. Lesions may merge causing large necrotic areas. Severe infection leads to premature leaf death reducing photosynthesis and grain fill. Disease is most severe with warm temperatures (75-85°F), high humidity, extended dew periods, and reduced tillage. Yield losses can reach 50% under favorable conditions."
+    },
+    {
+      "title": "Fungicide Timing and Selection",
+      "content": "Foliar fungicides are justified when disease develops before tasseling on susceptible hybrids with continuous corn rotation. Apply at V8-VT growth stages before extensive infection. Strobilurin fungicides like pyraclostrobin or azoxystrobin are highly effective. Triazole fungicides including propiconozole provide control. Use combination products for broader spectrum. Single application at VT-R1 protects during critical grain fill. Aerial application ensures good canopy penetration. Economic return depends on disease severity and grain prices."
+    },
+    {
+      "title": "Cultural Management Practices",
+      "content": "Plant resistant or moderately resistant hybrids as primary defense. Rotate corn with non-host crops like soybeans to break disease cycle. Reduced tillage and continuous corn greatly increase disease. Consider deep tillage to bury infected residue in high-risk situations. Avoid late planting which extends leaf wetness periods. Balance fertility; excessive nitrogen may increase disease. Ensure adequate potassium for plant health. Monitor fields starting at V8 growth stage. Scout more frequently during wet weather. Consider hybrid maturity and field history when selecting genetics."
+    }
+  ]
+}
