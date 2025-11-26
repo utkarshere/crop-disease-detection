@@ -43,34 +43,29 @@ Once the correct treatment text is retrieved, an LLM generates:
 * recommended fungicides (non-jargon)
 * future prevention advice
 
-### 🌍 **4. Multilingual Output (Optional)**
-
-Define any output language — Hindi, Marathi, Spanish, etc.
-
-(You can extend API to support `lang="hi"`.)
-
 ---
 
 ## 📑 Project Structure
 
-Crop_Detection/
+<pre class="overflow-visible!" data-start="1742" data-end="2286"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="sticky top-9"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre!"><span><span>Crop_Detection/
 │── src/
-│   ├── app.py                  # FastAPI application (endpoints)
-│   ├── api_model_loader.py     # Model loading + prediction + RAG
-│   └── frontend/               # Optional UI
+│   ├── app.py                  </span><span># FastAPI application (endpoints)</span><span>
+│   ├── api_model_loader.py     </span><span># Model loading + prediction + RAG</span><span>
+│   └── frontend/               </span><span># Optional UI</span><span>
 │
 │── knowledge_base/
-│   ├── documents.json          # Treatment database
-│   └── vector_store.json       # Generated embeddings
+│   ├── documents.json          </span><span># Treatment database</span><span>
+│   └── vector_store.json       </span><span># Generated embeddings</span><span>
 │
 │── models/
-│   └── best_model.pt           # EfficientNet-B0 trained model
+│   └── best_model.pt           </span><span># EfficientNet-B0 trained model</span><span>
 │
 │── dataset_split/
-│   └── test/                   # Small test dataset for debugging
+│   └── </span><span>test</span><span>/                   </span><span># Small test dataset for debugging</span><span>
 │
 │── requirements.txt
 │── README.md
+</span></span></code></div></div></pre>
 
 ---
 
@@ -204,6 +199,10 @@ docker run -p </span><span>8000</span><span>:</span><span>8000</span><span> crop
 
 ---
 
+---
+
 ## ⭐ Support
 
 If you found this useful, please ⭐ star the repository!
+
+It helps others discover this project.
