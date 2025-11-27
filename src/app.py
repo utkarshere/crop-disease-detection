@@ -5,10 +5,10 @@ from pydantic import BaseModel
 from PIL import Image
 import os
 from dotenv import load_dotenv
-from openai import OpenAI
+import google.generativeai as genai
 
 load_dotenv()
-client = OpenAI()
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 from src.api_model_loader import (
     IMG_TRANSFORM,
@@ -83,43 +83,43 @@ async def predict_and_recommend_expert(file: UploadFile = File(...)):
         }
 
     
-    system_msg = "You are a concise, practical agronomist. Provide farmer-friendly, actionable recommendations."
-    user_prompt = f"""
-Rewrite the treatment information below for a farmer. Keep it simple, practical and actionable.
-Include:
-1) What the disease is (short)
-2) Early warning signs
-3) Immediate actions
-4) Recommended treatments (chemical/organic simple guidance)
-5) Preventive measures for future seasons
-
-Original treatment text:
-{treatment_raw}
-"""
-
-    try:
-        llm_resp = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": system_msg},
-                {"role": "user", "content": user_prompt}
-            ],
-            max_tokens=800
-        )
-        expert_advice = llm_resp.choices[0].message.content
-    except Exception as e:
-     
-        expert_advice = ""
-        llm_error_note = f"LLM generation failed: {e}"
-        return {
-            "predicted_disease": predicted_label,
-            "confidence": confidence_str,
-            "matched_disease": matched_key,
-            "similarity_score": similarity_val,
-            "raw_treatment": treatment_raw,
-            "expert_recommendation": expert_advice,
-            "note": "Expert rewrite failed. See raw_treatment. " + llm_error_note
-        }
+    if matched_key == "Healthy":
+        expert_advice = treatment_raw
+    else:
+        system_msg = "You are a concise, practical agronomist. Provide farmer-friendly, actionable recommendations."
+        user_prompt = f"""
+    Rewrite the treatment information below for a farmer. Keep it simple, practical and actionable.
+    Include:
+    1) What the disease is (short)
+    2) Early warning signs
+    3) Immediate actions
+    4) Recommended treatments (chemical/organic simple guidance)
+    5) Preventive measures for future seasons
+    
+    Original treatment text:
+    {treatment_raw}
+    """
+    
+        try:
+            model = genai.GenerativeModel('gemini-2.0-flash')
+            response = model.generate_content(
+                f"{system_msg}\n\n{user_prompt}"
+            )
+            expert_advice = response.text
+        except Exception as e:
+            # Fallback if LLM fails
+            expert_advice = ""
+            llm_error_note = f"LLM generation failed: {e}"
+            return {
+                "predicted_disease": predicted_label,
+                "confidence": confidence_str,
+                "matched_disease": matched_key,
+                "similarity_score": similarity_val,
+                "raw_treatment": treatment_raw,
+                "expert_recommendation": expert_advice,
+                "note": "Expert rewrite failed. See raw_treatment. " + llm_error_note,
+                "is_healthy": False
+            }
 
     return {
         "predicted_disease": predicted_label,
@@ -127,5 +127,6 @@ Original treatment text:
         "matched_disease": matched_key,
         "similarity_score": similarity_val,
         "raw_treatment": treatment_raw,
-        "expert_recommendation": expert_advice
+        "expert_recommendation": expert_advice,
+        "is_healthy": (matched_key == "Healthy")
     }

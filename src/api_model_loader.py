@@ -137,16 +137,35 @@ def get_all_available_categories() -> List[str]:
 
 SIMILARITY_THRESHOLD = 0.80  
 
+
+HEALTHY_CLASSES = {
+    "Apple leaf",
+    "Bell_pepper leaf",
+    "Blueberry leaf",
+    "Cherry leaf",
+    "Peach leaf",
+    "Raspberry leaf",
+    "Soyabean leaf",
+    "Strawberry leaf",
+    "Tomato leaf",
+    "grape leaf"
+}
+
 def get_treatment_for_prediction(predicted_label: str) -> Tuple[Optional[str], float, str]:
     """
     Hybrid matching:
-      1) Normalize predicted_label; if exact normalized key exists in DOC_KEY_MAP -> direct match.
-      2) Else run RAG similarity. Accept only if similarity >= SIMILARITY_THRESHOLD.
-      3) Otherwise return (None, best_score, "")
+      1) Check if predicted_label is a known healthy class.
+      2) Normalize predicted_label; if exact normalized key exists in DOC_KEY_MAP -> direct match.
+      3) Else run RAG similarity. Accept only if similarity >= SIMILARITY_THRESHOLD.
+      4) Otherwise return (None, best_score, "")
     Returns: (matched_document_key_or_None, similarity_score, treatment_text)
     """
     if not predicted_label:
         return None, 0.0, ""
+
+    if predicted_label in HEALTHY_CLASSES:
+        # Return a special key or just None with a specific treatment text for healthy plants
+        return "Healthy", 1.0, "Your plant is healthy! No treatment is needed. Continue with regular care and monitoring."
 
     pred_norm = normalize_name(predicted_label)
 
@@ -164,3 +183,4 @@ def get_treatment_for_prediction(predicted_label: str) -> Tuple[Optional[str], f
 
    
     return None, best_score if best_score is not None else 0.0, ""
+
